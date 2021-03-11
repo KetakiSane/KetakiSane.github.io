@@ -1,0 +1,200 @@
+title{
+ font-family: "Times New Roman";
+}
+
+body {
+  font-family: "Avenir Next";
+  background:white;
+flex-direction:column;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #6082B6;
+  color: #fff;
+  height: 90px;
+border-radius:30px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  position:right;
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-list a {
+  color:white;
+  text-align:right;
+  font-size:20px;
+}
+
+.header-list a:hover{
+background:white;
+color:black;
+}
+.home h1{
+font-size:50px;
+text-align:center;
+}
+
+.home p{
+padding-top:50px;
+margin:0px 50px 0px 0px;
+text-align:center;
+width:40%;
+height:400px;
+font-size:40px;
+float:right;
+border: 5px solid black;
+border-radius:20px;
+}
+.home{
+margin-left:50px;
+margin-right:50px;
+height:760px;
+border: 2px solid #dee7ec;
+border-radius:30px;
+background-image:url("img.jpg");
+background-size:cover;  
+}
+
+/*.intro-container {
+text-align:center;
+height:300px;
+margin-left:300px;
+margin-right:300px;
+padding-top:50px;
+border: 2px solid #dee7ec;
+}*/
+
+.img-container{
+margin: 0px 800px 10px 50px ;
+padding: 0px 20px 50px 70px;
+border-radius:30px;
+}
+
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+}
+
+h3{
+font-size:30px;
+}
+
+.about{
+height:380px;
+}
+
+
+h2{
+font-size:50px;
+}
+
+.about-items h3{
+font-size:30x;
+}
+
+.about-items {
+background-color:#CCCCFF;
+border-radius:30px;
+}
+
+.about-items li{
+list-style-type: square;
+font-size:25px;
+}
+
+.projects{
+height:380px;
+}
+
+.project-items {
+background-color:#CCCCFF;
+border-radius:30px;
+height:250px;
+}
+
+.project-items h2{
+font-size:45px;
+}
+
+.project-items p{
+font-size:45px;
+}
+
+.project-title{
+color:black;
+font-size:30px;
+display:inline-block;
+padding:12px 24px;
+margin:0 auto;
+background-color:#5D3FD3;
+border-radius:30px;
+}
+
+.contact{
+height:380px;
+}
+
+.contact-items {
+height:300px;
+background-color:#CCCCFF;
+border-radius:30px;
+}
+
+.contact-items h2{
+font-size:45px;
+}
+
+.contact-items p{
+font-size:45px;
+}
+
+
+.contact-items li{
+font-size:30px;
+}
+
+.btn-wrapper {
+float:left;
+  margin: 20px 0;
+}
+
+.btn-Linkedin{
+color:black;
+font-size:40px;
+display:inline-block;
+padding:12px 24px;
+margin:0 auto;
+background-color:#5D3FD3;
+border-radius:30px;
+}
+
+.btn-Github{
+color:black;
+font-size:40px;
+display:inline-block;
+padding:12px 24px;
+margin:0 auto;
+background-color:#5D3FD3;
+border-radius:30px;
+margin-left:50px;
+}
+
+footer{
+font-size:30px;
+height:20px;
+width:100%;
+color:black;
+margin:0 auto;
+}
